@@ -1,0 +1,10 @@
+<li>
+	{{name}}
+	{{!-- Buttons --}}
+	<button class="change-devoured btn btn-amber" data-id="{{id}}" data-newState="{{devoured}}">
+		{{#if devoured}}Waiting!{{else}}Devour!{{/if}}
+	</button>
+
+	<button class="delete-burger btn btn-light-green" data-id="{{this.id}}">DELETE!</button>
+	{{!-- Buttons --}}
+</li>
